@@ -141,8 +141,8 @@ def img_CNN(training_images, training_labels, val_images, val_labels, test_image
     return pred_test
 
 # ======================================================================================================================
-# Transfer Learning with EfficientNetB0 Classification Model
-def img_TL(training_images, training_labels, val_images, val_labels, test_images, test_labels, num_classes):
+# EfficientNetB0 Classification Model
+def img_ENet(training_images, training_labels, val_images, val_labels, test_images, test_labels, num_classes):
     effnet = EfficientNetB0(weights='imagenet', include_top=False, input_shape=(256, 256, 3))
     model = effnet.output
     model = tf.keras.layers.GlobalAveragePooling2D()(model)

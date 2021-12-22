@@ -61,11 +61,11 @@ acc_B_test = model_B(X_train_task_B, y_train_task_B, X_val_task_B, y_val_task_B,
 #pred = img_SVM(X_train_ndl, y_train_ndl[:,0], X_val_ndl, y_val_ndl[:,0], X_test_ndl, y_test_ndl[:,0])
 #pred = img_KNN(X_train_ndl, y_train_ndl[:,0], X_val_ndl, y_val_ndl[:,0], X_test_ndl, y_test_ndl[:,0])
 #pred = img_CNN(X_train, y_train, X_val, y_val, X_test, y_test, 2)
-#pred = img_TL(X_train, y_train, X_val, y_val, X_test, y_test, 2)
+#pred = img_ENet(X_train, y_train, X_val, y_val, X_test, y_test, 2)
 # ======
 # Task B
 # ======
 #pred = img_SVM(X_train_ndl_task_B, y_train_ndl_task_B, X_val_ndl_task_B, y_val_ndl_task_B, X_test_ndl_task_B, y_test_ndl_task_B)
 #pred = img_KNN(X_train_ndl_task_B, y_train_ndl_task_B, X_val_ndl_task_B, y_val_ndl_task_B, X_test_ndl_task_B, y_test_ndl_task_B)
 #pred = img_CNN(X_train_task_B, y_train_task_B, X_val_task_B, y_val_task_B, X_test_task_B, y_test_task_B, 4)
-#pred = img_TL(X_train_task_B, y_train_task_B, X_val_task_B, y_val_task_B, X_test_task_B, y_test_task_B, 4)
+#pred = img_ENet(X_train_task_B, y_train_task_B, X_val_task_B, y_val_task_B, X_test_task_B, y_test_task_B, 4)
