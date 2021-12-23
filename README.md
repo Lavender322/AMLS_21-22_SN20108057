@@ -21,18 +21,6 @@ cloned this project, install the required packages by running
 pip install -r requirements.txt:
 ```
 
-```python
-numpy==1.20.1
-tensorflow==2.4.1
-pandas==1.3.2
-hypopt==1.0.9
-keras==2.7.0
-matplotlib==3.5.1
-pyfeats==0.0.11
-scikit_learn==1.0.1
-seaborn==0.11.2
-```
-
 ### Usage
 
 The role of each file in this project is illustrated as follows:
