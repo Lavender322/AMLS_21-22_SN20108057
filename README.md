@@ -25,7 +25,7 @@ pip install -r requirements.txt:
 
 The role of each file in this project is illustrated as follows:
 
-* The main.py script contains the main body of this project, which is run only to train, validate, and test the optimal machine learning model selected for the specified two tasks. 
+* The **main.py** script contains the main body of this project, which is run only to train, validate, and test the **optimal** machine learning model selected for the specified two tasks. 
 * The **task_A.py** script implements binary brain MRI tumour classification for Task A.
 * The **task_B.py** script implements multiclass brain MRI tumour classification for Task B.
 * The **result_display.py** script acquires the corresponding classification performance metrics on training, validation, and test datasets for a model and prints the scores to console.
